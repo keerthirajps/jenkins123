@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-12 11:36:46.1 UTC</timestamp>
+  <md5sum>5aa6dc6fbe84bd5f315600a07615a29c</md5sum>
+  <fileName>Credential id=hai name=ec2-user (how)</fileName>
+  <usages>
+    <entry>
+      <string>test_project</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>hook_job</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>deploy_project</string>
+      <ranges>1-9</ranges>
+    </entry>
+    <entry>
+      <string>build_project</string>
+      <ranges>1-6</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.2.0">
+      <timestamp>1563195906897</timestamp>
+      <nodeName>kirthee</nodeName>
+      <timestamp0>1563194346897</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-11 12:40:40.804 UTC</timestamp>
+  <md5sum>c45235fabb5b31d00d86ebf3556fe823</md5sum>
+  <fileName>Credential id=9ec863ce-6436-4547-bca1-fff70ce2d28a name=key1</fileName>
+  <usages>
+    <entry>
+      <string>jobslave</string>
+      <ranges>2-6</ranges>
+    </entry>
+    <entry>
+      <string>job4</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,23 @@
+Started by user [8mha:////4GX9+4WlhbBwfuXxIIgt78CPJGOMAuDQ/0bWyCqcfFWBAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job2
+Warning: CredentialId "4c8ddab1-63e9-4f45-8414-4ae21889873a" could not be found.
+Cloning the remote Git repository
+Cloning repository https://github.com/keerthirajps/PSK.git
+ > git init /var/lib/jenkins/workspace/job2 # timeout=10
+Fetching upstream changes from https://github.com/keerthirajps/PSK.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/keerthirajps/PSK.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/keerthirajps/PSK.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/keerthirajps/PSK.git # timeout=10
+Fetching upstream changes from https://github.com/keerthirajps/PSK.git
+ > git fetch --tags --progress https://github.com/keerthirajps/PSK.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 176ff6fc19e4a149ebefaf4132452e40b94b441f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 176ff6fc19e4a149ebefaf4132452e40b94b441f
+Commit message: "adding all files"
+First time build. Skipping changelog.
+Finished: SUCCESS

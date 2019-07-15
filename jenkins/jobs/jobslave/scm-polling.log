@@ -1,0 +1,11 @@
+Started on Jul 12, 2019 4:04:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 807d0b226249a64d847bc33a0dd6ebf66752a527 (refs/remotes/origin/master)
+using credential 9ec863ce-6436-4547-bca1-fff70ce2d28a
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h https://github.com/keerthirajps/jenkins.git # timeout=10
+Found 1 remote heads on https://github.com/keerthirajps/jenkins.git
+[poll] Latest remote head revision on refs/heads/master is: 807d0b226249a64d847bc33a0dd6ebf66752a527 - already built by 2
+Done. Took 0.13 sec
+No changes

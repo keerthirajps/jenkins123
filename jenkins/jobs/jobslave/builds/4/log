@@ -1,0 +1,22 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4IaA/ZOITFWeB7dVCMK6l6nWiq83XZAfM49RVGKnjm8kAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/ezMopKM1FQAjfoY6MYAAAA=[0mkirthee in workspace /home/ec2-user/jenkins/workspace/jobslave
+using credential 9ec863ce-6436-4547-bca1-fff70ce2d28a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/keerthirajps/jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/keerthirajps/jenkins.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/keerthirajps/jenkins.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 807d0b226249a64d847bc33a0dd6ebf66752a527 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 807d0b226249a64d847bc33a0dd6ebf66752a527
+Commit message: "all"
+ > git rev-list --no-walk 807d0b226249a64d847bc33a0dd6ebf66752a527 # timeout=10
+[jobslave] $ /bin/sh -xe /tmp/jenkins1393174761962533657.sh
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

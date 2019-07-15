@@ -1,0 +1,23 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4IaA/ZOITFWeB7dVCMK6l6nWiq83XZAfM49RVGKnjm8kAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/ezMopKM1FQAjfoY6MYAAAA=[0mkirthee in workspace /home/ec2-user/jenkins/workspace/build_project
+using credential hai
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/keerthirajps/jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/keerthirajps/jenkins.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials how
+ > git fetch --tags --progress https://github.com/keerthirajps/jenkins.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 807d0b226249a64d847bc33a0dd6ebf66752a527 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 807d0b226249a64d847bc33a0dd6ebf66752a527
+Commit message: "all"
+ > git rev-list --no-walk 807d0b226249a64d847bc33a0dd6ebf66752a527 # timeout=10
+[build_project] $ /bin/sh -xe /tmp/jenkins3870392956323907598.sh
++ make
+make: 'ABC.exe' is up to date.
+Triggering a new build of [8mha:////4NexZuvPc/SXiRb7MHv5HTTZD4W205gcpxtMK/9+snqIAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2U1IKc/Mr4gqL8rNTkEn0Aqj1EnckAAAA=[0mdeploy_project
+Finished: SUCCESS

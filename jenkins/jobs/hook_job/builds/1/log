@@ -1,0 +1,93 @@
+Started by GitHub push by keerthirajps
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/hook_job
+using credential hai
+Cloning the remote Git repository
+Cloning repository https://github.com/keerthirajps/jenkins.git
+ > git init /var/lib/jenkins/workspace/hook_job # timeout=10
+Fetching upstream changes from https://github.com/keerthirajps/jenkins.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials how
+ > git fetch --tags --progress https://github.com/keerthirajps/jenkins.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/keerthirajps/jenkins.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/keerthirajps/jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/keerthirajps/jenkins.git
+using GIT_SSH to set credentials how
+ > git fetch --tags --progress https://github.com/keerthirajps/jenkins.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 443bfbb24fe38a417f40dfede63964814e5aa0ad (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 443bfbb24fe38a417f40dfede63964814e5aa0ad
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[hook_job] $ /bin/sh -xe /tmp/jenkins1994246459076212960.sh
++ make
+gcc -c fact.c
+fact.c: In function ‘fact’:
+fact.c:5:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Enter an integer: ");
+     ^~~~~~
+fact.c:5:5: warning: incompatible implicit declaration of built-in function ‘printf’
+fact.c:5:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+fact.c:1:1:
++#include <stdio.h>
+ void fact()
+fact.c:5:5:
+     printf("Enter an integer: ");
+     ^~~~~~
+fact.c:6:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+     scanf("%d",&n);
+     ^~~~~
+fact.c:6:5: warning: incompatible implicit declaration of built-in function ‘scanf’
+fact.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -c big3.c
+big3.c: In function ‘big3’:
+big3.c:5:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Enter the three different numbers: ");
+     ^~~~~~
+big3.c:5:5: warning: incompatible implicit declaration of built-in function ‘printf’
+big3.c:5:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+big3.c:1:1:
++#include <stdio.h>
+ //#include <stdio.h>
+big3.c:5:5:
+     printf("Enter the three different numbers: ");
+     ^~~~~~
+big3.c:6:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+     scanf("%lf %lf %lf", &n1, &n2, &n3);
+     ^~~~~
+big3.c:6:5: warning: incompatible implicit declaration of built-in function ‘scanf’
+big3.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -c palindrome.c
+palindrome.c: In function ‘palindrome’:
+palindrome.c:4:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Enter an integer: ");
+     ^~~~~~
+palindrome.c:4:5: warning: incompatible implicit declaration of built-in function ‘printf’
+palindrome.c:4:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+palindrome.c:1:1:
++#include <stdio.h>
+ void palindrome()
+palindrome.c:4:5:
+     printf("Enter an integer: ");
+     ^~~~~~
+palindrome.c:5:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+     scanf("%d", &n);
+     ^~~~~
+palindrome.c:5:5: warning: incompatible implicit declaration of built-in function ‘scanf’
+palindrome.c:5:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:2:1: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+ fact();
+ ^~~~
+main.c:3:1: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+ big3();
+ ^~~~
+main.c:4:1: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+ palindrome();
+ ^~~~~~~~~~
+gcc -o ABC.exe fact.o big3.o palindrome.o main.o
+Finished: SUCCESS

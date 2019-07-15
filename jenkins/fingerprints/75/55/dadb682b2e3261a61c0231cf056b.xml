@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-11 08:26:54.531 UTC</timestamp>
+  <md5sum>7555dadb682b2e3261a61c0231cf056b</md5sum>
+  <fileName>Credential id=bb72061e-9d59-4616-9e08-38a2b6a5a8a4 name=jenkins</fileName>
+  <usages>
+    <entry>
+      <string>job2</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

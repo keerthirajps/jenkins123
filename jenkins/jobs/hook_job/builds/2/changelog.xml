@@ -1,0 +1,11 @@
+commit 7405d04430dca6abb626ae6ec3be1084ecf86f4e
+tree 8a505a08f73f30d6105b50a5d537c9823593bf3d
+parent 443bfbb24fe38a417f40dfede63964814e5aa0ad
+author keerthirajps <52620200+keerthirajps@users.noreply.github.com> 2019-07-13 23:13:58 +0530
+committer GitHub <noreply@github.com> 2019-07-13 23:13:58 +0530
+
+    Update palindrome.c
+
+
+
+:100644 100644 bc706549e6e23cb9870cdf9aa8b7b7b0ac2e0d4e b753c003be609b802b63bd28734f714efd228656 M	palindrome.c

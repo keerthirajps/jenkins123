@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kiy0taka
+Build-Jdk: 1.6.0_45
+Extension-Name: terminal
+Implementation-Title: terminal
+Implementation-Version: 1.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: terminal
+Long-Name: Jenkins Terminal Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Terminal+Plugin
+Plugin-Version: 1.4
+Hudson-Version: 1.515
+Jenkins-Version: 1.515
+Plugin-Dependencies: jquery-ui:1.0.2
+Plugin-Developers: Kiyotaka Oku:kiy0taka:,Joey Jiao:joeyjiao:
+
